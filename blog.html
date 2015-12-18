@@ -11,12 +11,8 @@ layout: default
         <ul class="posts">
           {% for post in site.posts %}
             <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                {{ post.excerpt }}
-                <section class="special">
-                    <ul class="buttons">
-                        <li><a href="{{ post.url }}" class="button">Read more</a></li>
-                    </ul></section>
+              <h2><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></h2>
+
             </li>
           {% endfor %}
         </ul>
