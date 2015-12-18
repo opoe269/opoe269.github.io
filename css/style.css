@@ -563,8 +563,8 @@
 /* Wrapper */
 
 	.wrapper {
-		margin-bottom: 5em;
-		padding: 5em;
+		margin-bottom: 3em;
+		padding: 3em;
 	}
 
 		.wrapper.style1 {
@@ -603,7 +603,7 @@
 		.wrapper.style4 {
 			background: white;
 			color: inherit;
-			padding: 4em;
+			padding: 2.5em;
 		}
 
 /* Header */
